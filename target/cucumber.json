@@ -1,0 +1,363 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12394000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I landed on saucelab login page",
+            "match": {
+              "location": "stepdefs.Steps.i_landed_on_saucelab_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-23T03:22:36.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 64071000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.openbrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Add the products to the cart",
+        "description": "",
+        "id": "home-page;add-the-products-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 23614000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2906000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter correct username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepdefs.Steps.i_enter_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8664000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I clicked Login button",
+            "match": {
+              "location": "stepdefs.Steps.i_clicked_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6404000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Add to Cart for product \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefs.Steps.i_click_on_Add_to_cart_for_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Product should be successfully added to the project",
+            "match": {
+              "location": "stepdefs.Steps.product_should_be_successfully_added_to_the_project()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/saucedemohome.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18158000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I landed on saucelab login page",
+            "match": {
+              "location": "stepdefs.Steps.i_landed_on_saucelab_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-23T03:24:34.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20501000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.openbrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login with Valid Credential",
+        "description": "",
+        "id": "login;login-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 37000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1292000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter correct username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepdefs.Steps.i_enter_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6747000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I clicked Login button",
+            "match": {
+              "location": "stepdefs.Steps.i_clicked_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should get the Homepage",
+            "match": {
+              "location": "stepdefs.Steps.i_should_get_the_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15134000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I landed on saucelab login page",
+            "match": {
+              "location": "stepdefs.Steps.i_landed_on_saucelab_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-23T03:25:58.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21059000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.openbrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with Invalid Credential",
+        "description": "",
+        "id": "login;login-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 67396000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter incorrect username as \"guest_user\" and password as \"abcdef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"guest_user\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepdefs.Steps.i_enter_incorrect_username_and_inpassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7709000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I clicked Login button",
+            "match": {
+              "location": "stepdefs.Steps.i_clicked_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefs.Steps.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/saucedemologin.feature",
+    "tags": []
+  }
+]
